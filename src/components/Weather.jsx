@@ -1,13 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Weather.css";
 // import { CiSearch } from "react-icons/ci";
-import Search_icon from "../assets/Search.png";
-import Clear_icon from "../assets/Clear.webp";
-import Cloud_icon from "../assets/Cloud.webp";
-import Rain_icon from "../assets/Rain.png";
+import Search_icon from "../components/assets/Search.png"
+import Clear_icon from "../components/assets/Clear.webp";
+import Cloud_icon from "../components/assets/Cloud.webp";
+import Rain_icon from "../components/assets/Rain.png";
 
-import Wind_icon from "../assets/Wind.png";
-import Humidity_icon from "../assets/Humidity.webp";
+import Wind_icon from "../components/assets/Wind.png";
+import Humidity_icon from "../components/assets/Humidity.webp";
 
 const Weather = () => {
   const inputRef = useRef();
