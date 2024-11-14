@@ -8,8 +8,5 @@
 }
 .app{
   min-height: 100vh;
-  width: 100%;
   display: grid;
-  background: #e2d4ff;
-  padding: 10px;
 }
